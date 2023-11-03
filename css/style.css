@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+#popup{
+    width:500px;
+    height:500px;
+    background-color: indigo;
+    position:fixed;
+    left:300px;
+    top:150px;
+    z-index: 2;
+}
+#popup-img{
+    width:500px;
+    height:450px;
+    background-color: indianred;
+}
+#popup-img>img{
+    width:100%;
+    height:100%;
+}
+#popup-btn{
+    width:500px;
+    height:50px;
+    background-color: ivory;
+    padding:10px;
+    box-sizing: border-box;
+}
+#popup-btn>button{
+    float:right;
+}
+#wrap{
+    width:1400px;
+    height:950px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+#main{
+    width:1400px;
+    height:850px;
+    background-color: aquamarine;
+}
+#logo1{
+    float:left;
+    width:300px;
+    height:100px;
+    background-color: bisque;
+}
+#logo1>img{
+    float:left;
+    width:300px;
+    height:100px;
+}
+#main>#title{
+    float:left;
+    width:800px;
+    height:100px;
+    text-align: center;
+}
+#main>#title>h1{
+    padding-top:20px;
+    box-sizing: border-box;
+}
+#main>#top{
+    float:left;
+    width:300px;
+    height:100px;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+.ls>a{
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+    font-weight: bold;
+}
+.ls>a:before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 0 17px 0 16px;
+    background: #000;
+    vertical-align: middle;
+}
+#main>#banner{
+    float:left;
+    width:1400px;
+    height:450px;
+    background-color: cornflowerblue;
+}
+#main>#peopleimage{
+    float:left;
+    width:1400px;
+    height:300px;
+    background-color: lavender;
+    margin: 0 auto;
+
+}
+#main>#peopleimage>#list{
+    width:980px;
+    height:300px;
+    margin:0 auto;
+
+}
+#main>#peopleimage>#list>img{
+    box-sizing:border-box;
+    width:200px;
+    height:200px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:25px;
+    background-color: lavender;
+}
+#footer{
+    width:100%;
+    height:100px;
+    background-color: antiquewhite;
+}
+#footer>#logo2{
+    float:left;
+    width:300px;
+    height:100px;
+    background-color: darkblue;
+}
+#footer>#copyright{
+    float:left;
+    width:800px;
+    height:100px;
+    background-color: lawngreen;
+}
+#footer>#sns{
+    float:left;
+    width:300px;
+    height:100px;
+    background-color: lightpink;
+}
+#sns>ul{
+    position: relative;
+    left:20px;
+    top:10px;
+}
+#sns>ul>li{
+    float:left;
+    margin:10px;
+    padding-right: 10px;
+}
