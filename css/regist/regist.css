@@ -20,18 +20,18 @@ a{
 }
 #header>#logo1{
     float:left;
-    width:300px;
+    width:200px;
     height:100px;
     background-color: bisque;
 }
 #logo1>img{
     float:left;
-    width:300px;
+    width:200px;
     height:100px;
 }
 #header>#title{
     float:left;
-    width:800px;
+    width:900px;
     height:100px;
     text-align: center;
 }
@@ -100,14 +100,6 @@ a{
     margin-top:18px;
     width:120px;
     height: 40px;
-}
-#n2>button{
-    background-color: skyblue;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    border: none;
-    padding: 10px 30px;
 }
 #n2>img{
     width:245px;

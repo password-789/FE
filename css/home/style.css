@@ -55,12 +55,12 @@ a{
 }
 #logo1>img{
     float:left;
-    width:300px;
+    width:200px;
     height:100px;
 }
 #main>#title{
     float:left;
-    width:800px;
+    width:900px;
     height:100px;
     text-align: center;
 }

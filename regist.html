@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/insert/insert.css">
+    <link rel="stylesheet" href="./css/regist/regist.css">
     <title>등록</title>
 </head>
 <body>
+    <script src="src/index.js"></script>
     <div id = "main">
             <div id = "header">
                 <div id = "logo1">
@@ -37,7 +38,8 @@
                         </div>  
                         <div class ="johoi" id = "n2">
                             <img src="./images/camerajohoi.png" alt="사진 등록">
-                            <button type="button" onclick="location.href='https://ansim.nid.or.kr/service/facility_list.aspx'">→ 사진 등록</button>
+                            <input type="file" id="fileUpload" accept='image/*' />
+                            <script src="./js/imageregist.js"></script>
                         </div>
 
                     </div>
