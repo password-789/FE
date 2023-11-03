@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/insert/insert.css">
     <title>등록</title>
 </head>
 <body>
-    <h1>등록</h1>
+    <div id = "main">
+            <div id = "header">
+                <div id = "logo1">
+                    <img src="./images/logo.jpg" alt ="로고">
+                </div>
+                <div id = "title">
+                    <h1>치매 노인찾기 : 비밀번호 789</h1>
+                </div>
+                <div id="top">
+                    <span class ="ls">
+                        <a href="login.html">sign on</a>
+                        <a href="signup.html">sign up</a>
+                        <a href="help.html">help</a>
+                    </span>
+                </div>
+            </div>
+            <div id = "main2">
+                <div id = "maintitle">
+                    <h1>등록하기</h1>
+                </div>
+                    <div id="rectangle">
+                        <div class ="johoi" id="n1">
+                            <a><span>성명 : </span><input type="text" placeholder="Enter your name" /></a>
+                            <a><span>생년월일 : </span><input type="number" placeholder="Enter a birth" /></a>
+                            <a><span>주소 : </span><input type="text" placeholder="Enter your adress" /></a>
+                            <a><span>보호자 성명 : </span><input type="text" placeholder="Enter your family name" /></a>
+                            <a><span>보호자 연락처 : </span><input type="number" placeholder="Enter your family number" /></a>
+                        </div>  
+                        <div class ="johoi" id = "n2">
+                            <img src="./images/camerajohoi.png" alt="사진 등록">
+                            <button type="button" onclick="location.href='https://ansim.nid.or.kr/service/facility_list.aspx'">→ 사진 등록</button>
+                        </div>
+
+                    </div>
+            </div>
+    </div>
 </body>
 </html>
